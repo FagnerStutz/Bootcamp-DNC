@@ -9,8 +9,9 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 42.91%, rgba(12, 112, 242, 0) 50.84%), #303030;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 21%, rgba(12, 112, 242, 0) 23%), #303030;
     border: 1px solid #BABABA;
+    box-sizing: border-box; 
 }
 
     #principal{
@@ -68,12 +69,12 @@ body{
         color: #ffffff;
         font-family: var(--fonte-padrao);
         margin-top: 100px;
-        margin-bottom: 100px;
+        margin-bottom: 1000px;
     }
 
         header h1{
             text-transform: uppercase;
-            font-size: 80px;
+            font-size: 65px;
             font-weight: 800;
             margin-bottom: 20px;
             text-align: center;
@@ -81,9 +82,9 @@ body{
 
         header h2{
             text-align: center;
-            font-size: 40px;
+            font-size: 30px;
             font-weight: 700;
-            margin-bottom: 100px;
+            margin-bottom: 200px;
         }
 
         header .invert{
@@ -100,36 +101,53 @@ body{
         width: 600px;
     }
 
-    .form-group{
-        display: flex;
-        flex-direction: column;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+        .form-group{
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
 
-    form input{
-        border-radius: 10px;
-        border: 0;
-        height: 30px;
-        font-size: 20px;
-        padding: 15px;
-        background-color: rgba(255, 255, 255, 0.9);
-    }
+        form input{
+            border-radius: 10px;
+            border: 0;
+            height: 30px;
+            font-size: 20px;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
 
-    form label{
-        margin: 10px 0px 10px 0px;
-    }
+        form label{
+            margin: 10px 0px 10px 0px;
+        }
 
-    form input::placeholder{
-        color: rgba(57, 57, 57, 0.5);
-    }
+        form input::placeholder{
+            color: rgba(57, 57, 57, 0.5);
+        }
 
-    .checkbox-itens label{
-        font-size: 25px;
-    }
+        .checkbox-itens label{
+            font-size: 25px;
+        }
 
-    .checkbox-itens{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
+        .checkbox-itens{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        input[type="checkbox"]{
+            transform: scale(1.7);
+        }
+
+        input[type="submit"]{
+            background-color: rgba(12, 112, 242, 0.9);
+            border-radius: 10px;
+            box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
+            width: 600px;
+            height: 56px;
+            margin-top: 100px;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 32px;
+            padding: 4px;
+        }
