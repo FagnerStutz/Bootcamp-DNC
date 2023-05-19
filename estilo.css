@@ -240,3 +240,90 @@ body{
     footer .linha2 a:first-child{
         border-right: 3px solid #ffffff;
     }
+
+/* Media Query Mobile */
+
+@media only screen and (max-width: 600px){
+
+    /* Nav */
+
+    #principal{
+        flex-direction: column;
+        height: auto;
+        border: 0;
+    }
+
+    #menu{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #menu a{
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    #principal button{
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Section */
+
+    section{
+        margin-top: 100px;
+    margin-bottom: 230px;
+    }
+
+    section h1{
+        font-size: 38px;
+    }
+
+    section h2{
+        font-size: 28px;
+        padding-right: 5px;
+        padding-left: 15px;
+    }
+
+    /* Form */
+
+    form{
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .checkbox-itens label{
+        font-size: 17px;
+    }
+
+    form .input{
+        width: 95%;
+    }
+
+    /* Footer */
+
+    footer h5{
+        width: 70%;
+        height: 15px;
+    }
+
+    footer .linha1{
+        flex-direction: column;
+    }
+    
+    input[type="submit"]{
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        font-size: 22px;
+    }
+
+    footer .endereco{
+        width: 95%;
+    }
+
+    footer .linha2{
+        padding: 15px;
+    }
+}
