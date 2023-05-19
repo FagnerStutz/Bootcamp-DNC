@@ -9,7 +9,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 21%, rgba(12, 112, 242, 0) 23%), #303030;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 25%, rgba(12, 112, 242, 0) 29%), #303030;
     border: 1px solid #BABABA;
     box-sizing: border-box; 
 }
@@ -69,7 +69,7 @@ body{
         color: #ffffff;
         font-family: var(--fonte-padrao);
         margin-top: 100px;
-        margin-bottom: 1000px;
+        margin-bottom: 230px;
     }
 
         header h1{
@@ -151,3 +151,92 @@ body{
             font-size: 32px;
             padding: 4px;
         }
+
+    /* Footer */
+
+    footer{
+        width: 100%;
+        background-color: var(--azul-dnc);
+    }
+
+    footer .linha1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 330px;
+    }
+
+    footer h5{
+        text-align: center;
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 18px;
+        font-family: var(--fonte-padrao);
+        background-color: var(--preto-dnc);
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    footer ul li{
+        text-align: center;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: var(--fonte-padrao);
+        margin: 20px 0px 20px 0px;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    footer .endereco{
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 18px;
+        font-family: var(--fonte-padrao);
+        text-align: center;
+        width: 20%;
+    }
+
+    footer ul li a:hover{
+        color: var(--cinza-hover);
+    }
+
+    footer .linha2{
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 30px;
+    }
+
+    footer .linha2 a{
+        font-family: var(--fonte-padrao);
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 5px;    
+    }
+
+    footer .linha2 a:hover{
+        color: var(--cinza-hover);
+    }
+
+    footer .linha2 a:first-child{
+        border-right: 3px solid #ffffff;
+    }
